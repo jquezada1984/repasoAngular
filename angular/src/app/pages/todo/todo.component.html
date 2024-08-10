@@ -13,7 +13,7 @@
             <span
                 class="status"
             >
-                    En progreso
+            {{todoData.status}}
             </span>
             
         </p>
@@ -21,10 +21,10 @@
             <span
                 class="priority"
             >
-            Low
+            {{todoData.priority}}
             </span>
         </p>
-        <p>Fecha límite: '09/08/2024'</p>
+        <p>Fecha límite: {{todoData.deadLine}}</p>
     </div>
     <section class="progressbar-container">
         <div class="progressbar">
